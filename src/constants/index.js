@@ -19,10 +19,13 @@ import {
   starbucks,
   tesla,
   shopify,
+  nisum,
+  iomechs,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  flutter,
+  nestjs,
 } from "../assets";
 
 export const navLinks = [
@@ -46,28 +49,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Flutter Developer",
+    icon: flutter,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -81,12 +72,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Flutter",
+    icon: flutter,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Redux And Redux Toolkit",
+    icon: redux,
   },
   {
     name: "Node JS",
@@ -97,143 +88,96 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Associate Software Engineer",
+    company_name: "IOMECHS",
+    icon: iomechs,
+    iconBg: "#00000",
+    date: "June 2020 - Dec 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing UI of the Mobile Application using React Native along with Redux and Redux observable.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "NISUM",
+    icon: nisum,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "DEC 2020 - NOW",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Started as a JavaScript React Developer. Gradually transformed into a full stack developer and continuously learning about Backend and system designs and bringing ideas to Life.",
+      "Successfully executed an internship training program, where I along with another colleague have trained a group of interns on React and redux and successfully launched a POC",
+      "Have done multiple POC for clients",
+      "Have been involved in remote interviews",
+      "Have experience of working with remote teams",
+      "Employee training for helping them understand the system design and have sessions where they can do hands on",
+      "Have worked on Backend application developed using Nest JS and NX mono repo and a large scale Frontend application using React, Redux, React Query and webpack",
+      "Document the coding practices, structures and flows creating Architecture diagrams for better understanding of the flow and systems",
+      "Have effective communication with peers and take parts in code reviews and Sprint planning."
     ],
   },
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+ 
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-commerce Mobile App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Cross platform Mobile E commerce app. Where user can get the list of products and can search products. It contains checkout page and product detailed page",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Go",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Food Ordering App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A minimal food ordering app for user - Where they can search for food, add it to their cart, and proceed to checkout ",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Getx",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
@@ -245,15 +189,15 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node JS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Mongo DB",
         color: "pink-text-gradient",
       },
     ],
