@@ -33,6 +33,7 @@ import nisum from "./company/nisum.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import placeholder from "./placeholder.png";
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   iomechs,
   nisum,
   flutter,
-  nestjs
+  nestjs,
+  placeholder
 };

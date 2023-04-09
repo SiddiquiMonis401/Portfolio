@@ -26,6 +26,7 @@ import {
   tripguide,
   flutter,
   nestjs,
+  placeholder,
 } from "../assets";
 
 export const navLinks = [
@@ -163,7 +164,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: placeholder,
     source_code_link: "https://github.com/",
   },
   {
@@ -180,7 +181,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: placeholder,
     source_code_link: "https://github.com/",
   },
   {
@@ -201,7 +202,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: placeholder,
     source_code_link: "https://github.com/",
   },
 ];
